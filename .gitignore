@@ -1,0 +1,9 @@
+# Ignorar arquivos do Python
+__pycache__/
+*.py[cod]
+
+# Ignorar o dataset (pois é muito grande para o Git)
+data/
+
+# Ignorar ambiente virtual do uv
+.venv/
