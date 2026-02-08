@@ -24,8 +24,6 @@ projeto-inspecao/
 └── README.md          # Documentação Técnica
 ```
 
-
-
 🚀 Como Executar
 Pré-requisitos
 Este projeto utiliza o uv para gerenciamento ultra-rápido de dependências.
@@ -84,13 +82,6 @@ uv run src/main.py
 
 - [ ] Exportação de relatórios de inspeção em PDF/PNG.
 
-
-## 📈 Futuras Implementações: Dashboard de Dados
-- [ ] **Módulo de Telemetria:** Integração com sensores de vibração/temperatura via MQTT/SQL.
-- [ ] **Plotagem de Alta Performance:** Gráficos de séries temporais com suporte a milhões de pontos de dados.
-- [ ] **KPI Dashboard:** Painel de indicadores de produtividade (OEE) e status de máquinas em tempo real.
-- [ ] **Editor de Fluxo (Node Editor):** Visualização lógica do processo fabril.
-
 ---
 
 **Desenvolvido por Charles Duarte** *Explorando o futuro da inspeção visual no chão de fábrica.*
@@ -126,8 +117,6 @@ O script possui uma rotina de `resize` automático via Pillow para evitar que o 
 Embora o dataset possa ter 3GB, o script carrega apenas **um par de imagens por vez** na memória RAM/GPU. Se houver travamentos, feche outras aplicações que consumam muita memória de vídeo (como navegadores com muitas abas ou softwares CAD).
 
 ---
-
- 
 
 - .
 
